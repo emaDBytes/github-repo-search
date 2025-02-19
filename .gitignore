@@ -30,7 +30,24 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env
+.env.local
+.env.development
+.env.test
+.env.production
 
 # typescript
 *.tsbuildinfo
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Local history
+.history/
+
+# Build artifacts
+*.log
+
+# Temporary files
+*.swp
